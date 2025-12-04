@@ -8,22 +8,22 @@ int main() {
 
   // Área para definição das variáveis para armazenar as propriedades das cidades
   char carta1;
-  char Estado[] = 'A';
-  char condigo_da_carta[20] = 'A01';
-  char nome_da_cidade[20] = "Brasilia";
-  int população = 1558000;
-  float area = 12550.90;
-  float pib = 550.50;
-  int numero_de_pontos_turisticos = 5;
+  char Estado1[] = 'A';
+  char condigo_da_carta1[20] = 'A01';
+  char nome_da_cidade1[20] = "Brasilia";
+  int população1 = 1558000;
+  float area1 = 12550.90;
+  float pib1 = 550.50;
+  int numero_de_pontos_turisticos1 = 5;
  
   char carta2;
-  char Estado[] = 'B';
-  char condigo_da_carta[20] = 'B02';
-  char nome_da_cidade[20] = "Fortaleza";
-  int população = 2055010;
-  float area = 21060.20;
-  float pib = 300.70;
-  int numero_de_pontos_turisticos = 15;
+  char Estado2[] = 'B';
+  char condigo_da_carta2[20] = 'B02';
+  char nome_da_cidade2[20] = "Fortaleza";
+  int população2 = 2055010;
+  float area2 = 21060.20;
+  float pib2 = 300.70;
+  int numero_de_pontos_turisticos2 = 15;
 
   // Área para entrada de dados
   printf ("Escolha uma carta, 1 ou 2: ");
