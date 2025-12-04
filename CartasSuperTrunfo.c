@@ -8,7 +8,7 @@ int main() {
 
   // Área para definição das variáveis para armazenar as propriedades das cidades
   char carta1;
-  char Estado[20] = 'A';
+  char Estado[] = 'A';
   char condigo_da_carta[20] = 'A01';
   char nome_da_cidade[20] = "Brasilia";
   int população = 1558000;
@@ -16,8 +16,8 @@ int main() {
   float pib = 550.50;
   int numero_de_pontos_turisticos = 5;
  
-  char carta2 = 2;
-  char Estado[20] = 'B';
+  char carta2;
+  char Estado[] = 'B';
   char condigo_da_carta[20] = 'B02';
   char nome_da_cidade[20] = "Fortaleza";
   int população = 2055010;
